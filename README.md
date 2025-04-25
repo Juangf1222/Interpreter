@@ -13,4 +13,4 @@ Diseñar e implementar un sistema de generación de informes modulares que emple
 # Calificación:
 - Diagrama UML de la solución. (2 PUNTOS)
 - Código Java aplicación funcional (GitHub). (2 PUNTOS)
-- Exposición de la aplicación. (1 PUNTO)
+- Exposición del proceso de la aplicación. (1 PUNTO)
