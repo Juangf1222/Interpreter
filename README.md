@@ -1,5 +1,15 @@
 # Patrones estructurales
+
+***
+
+## UML
+
+![UML](Reportes/src/docs/UML.png)
+
+***
+
 Diseñar e implementar un sistema de generación de informes modulares que emplee de forma combinada los patrones Bridge, Decorator, Flyweight y Proxy, atendiendo a los siguientes requisitos:
+
 - Bridge: Separación de formato de contenido
   - Define una abstracción Report que represente un informe genérico, hay también reportes detallados y reportes ejecutivos.
   - Separa la implementación de exportación (Exporter) de la abstracción, de modo que puedas añadir nuevos formatos de salida (por ejemplo, PDFExporter, HTMLExporter, MarkdownExporter) sin modificar las clases de los informes.
@@ -10,7 +20,9 @@ Diseñar e implementar un sistema de generación de informes modulares que emple
   - Crea un StyleFactory que gestione un pool de objetos TextStyle y devuelva instancias compartidas para evitar duplicar en memoria estilos iguales.
 - Proxy: Control de acceso
   - Verificación de permisos: solo usuarios con rol “Administrador” pueden incorporar decoradores.
-# Calificación:
+
+## Calificación
+
 - Diagrama UML de la solución. (2 PUNTOS)
 - Código Java aplicación funcional (GitHub). (2 PUNTOS)
 - Exposición del proceso de la aplicación. (1 PUNTO)
