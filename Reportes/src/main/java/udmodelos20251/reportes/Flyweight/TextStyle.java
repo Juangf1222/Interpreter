@@ -1,3 +1,5 @@
+package udmodelos20251.reportes.Flyweight;
+
 public final class TextStyle {
     private final Font font;
     private final FontSize size;
